@@ -10,4 +10,5 @@ function fuzzyMatch(driver, string){
   var dri = driver.filter(function(num){
     return num.charAt(string) === num;
   })
+  return dri
 }
