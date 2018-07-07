@@ -2,8 +2,8 @@
 function findMatching(driver, string){
 
   var dri = driver.filter(function(num) {
-    string.toLowerCase();
-    return num.includes(string)
+
+    return num.includes(string).toLowerCase();
   })
   return dri
 }
