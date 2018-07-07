@@ -12,7 +12,7 @@ function fuzzyMatch(driver, string){
   })
   return dri
 }
-function matchName(drivers, string){
+function matchName(driver, string){
   var dri = driver.filter(function(num){
     num === string
   })
