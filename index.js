@@ -8,7 +8,7 @@ function findMatching(driver, string){
 }
 function fuzzyMatch(driver, string){
   var dri = driver.filter(function(num){
-    return num.toLowerCase().includes(string.toLowerCase()) === num;
+    return num.toLowerCase().charAt(string.toLowerCase());
   })
   return dri
 }
