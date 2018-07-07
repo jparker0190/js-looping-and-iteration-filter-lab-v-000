@@ -8,7 +8,7 @@ function findMatching(driver, string){
 }
 function fuzzyMatch(driver, string){
   var dri = driver.filter(function(num){
-    return num.charAt(string) === string;
+    return num.includes(string)
   })
   return dri
 }
